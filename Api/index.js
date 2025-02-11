@@ -1,5 +1,5 @@
 const express = require("express");
-const mySql = require("mysql2/promis");
+const mySql = require("mysql2");
 
 const api = express();
 const port = 3000;
